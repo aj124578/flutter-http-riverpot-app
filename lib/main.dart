@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'view/home/home_page.dart';
+import 'view/pages/post/home/post_home_page.dart';
 
 void main() {
   runApp(
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: HomePage(),
+      home: PostHomePage(),
     );
   }
 }
